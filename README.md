@@ -1,1 +1,2 @@
-# js-smart-academy
+# calculator
+begginer html , css , javascript calculator practic
