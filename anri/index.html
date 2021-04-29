@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/Group 244.png" alt="" class="img left-img" style="height:100vh">
+      <div class="signin-group flex">
+      <div class="form-header">
+        <h2>Smartacademy</h2>
+        <p>Welcome back! Please login to your account.</p>
+      </div>
+      <div class="signin flex" id="signin">
+        <div class="form-group">
+          <input type="text" placeholder="Username" id="Username" class="username" required>
+        </div>
+        <div class="form-group">
+          <input type="password" class="form2" id="signPassword" placeholder="Password" required />
+        </div>
+        
+        <div class="form-group">
+          <div class="checkbox-wrapper flex">
+                <div class="checkbox-container">
+            <input type="checkbox" id="remember" name ="rememberme" class="remember" />
+              <label for="rememberme">Remember Me</label>
+          </div>
+          <p>Forget Password</p>
+          </div>
+      
+        </div>
+       
+      </div>
+      <div class="sign-buttons flex">
+        <button type="submit" id="signinLogin">Login</button>
+        <a href="page2.html"><button id="signinSignup">Sign Up</button></a>
+      </div>
+    </div>
+    </div>
+    <script src="js/sign.js">
+      
+    </script>
+  </body>
+</html>

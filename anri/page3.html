@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body id="page3">
+    <div class="container flex">
+      <header>
+        <div class="horizontal-wrapper">
+          <nav class="horizontal">
+            <div class="imgs">
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+              <img src="img/Support Iocn.svg" alt="">
+              <img src="img/Chat Icon.svg" alt="">
+              <img src="img/Notification.svg" alt="" style="    border-right: 1px solid #ebebf2;
+              padding-bottom: 5px; padding-right:15px;">
+            <h2>John Doe</h2>
+            <img src="img/small-down.svg" alt="">
+            <img src="img/Avatar.svg" alt="">
+          </div>
+          </nav>
+        </div>
+
+        <nav class="vertical-nav" id="side-bar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="nav-header flex">
+            <a href="page3.html"><h2>Smartacademy</h2></a>
+            <img src="img/Group 245.svg" alt="menu" id="sidebar-icon" />
+          </div>
+          <ul class="vertical-nav-ul">
+            <li>
+              <a href="#">
+                <img src="img/Path 357.svg" alt="Home" />
+                Home
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                <img src="img/icon_dashboard.svg" alt="Dashboard" />
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/Union 9.svg" alt="Products" />
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/Path 108.svg" alt="Settings" />
+                Settings
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="list-container">
+        <h2>Todo List</h2>
+        <div class="wrapper">
+          <div class="header">
+            <h2>All Todo</h2>
+            <button id="modal">Add Todo</button>
+          </div>
+          <div class="todo-table">
+            <table>
+              <tr>
+                <th>Task Name</th>
+                <th>Is Completed</th>
+                <th>Created By</th>
+              </tr>
+              <tbody id="api">
+              </tbody>
+            </table>
+          </div>
+          <div class="button-container" id="button-container">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Add Todo</h2>
+          <span class="close">&times;</span>
+        </div> 
+        <input type="text" placeholder="Title">
+        <button>Save</button>
+      </div>
+    </div>
+    <script src="js/page3.js">
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container flex">
+
+    <img src="img/Group 244.png" alt="" class="img left-img">
+    <div class="signin-group flex" style="margin-top:120px;">
+
+      <div class="form-header">
+        <h2 >Smartacademy</h2>
+        <p>Welcome back! Please login to your account.</p>
+      </div>
+      <div class="signin flex" id="form">
+
+        <div class="names flex">
+          <div class="form-group name-form-group">
+            <input type="text" placeholder="First name" class="input" id="first-name" required />  
+          </div>
+          <div class="form-group name-form-group2">
+            <input type="text" placeholder="Last name"  class="input"  id="last-name" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Username" id="username"  class="input"  required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Email"  class="input"  required />
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" class="input"  placeholder="Password" required />
+        </div>
+        <div class="form-group">
+          <input type="password" id="password2"  class="input"  placeholder="Confirm Password" required />
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="checkbox"  class="input"  name ="checkbox"/>
+          <label for="checkbox">I agree with terms and conditions</label>
+        </div>
+        <button id="signinLogin" style="margin:auto; margin-top:40px;" type="submit">Sign Up</button>
+        <a href="index.html" class="question">Already have an account? Sign in.</a>
+    </div>
+  </div>
+
+  <script src="js/page2.js">
+
+  </script>
+</body>
+</html>
